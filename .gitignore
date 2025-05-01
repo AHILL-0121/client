@@ -1,0 +1,18 @@
+node_modules
+
+# Exclude large files
+*.zip
+.next/cache/
+
+# For deployment, still track .next but not the cache
+!.next
+!.next/static/
+!.next/server/
+!.next/BUILD_ID
+!.next/build-manifest.json
+!.next/prerender-manifest.json
+!.next/required-server-files.json
+!.next/routes-manifest.json
+!.next/app-build-manifest.json
+!.next/trace
+!.next/package.json
