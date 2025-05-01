@@ -1,4 +1,4 @@
-import AccountPage from "@/component/Landing_Page/Account/Account";
+import AccountPage from "@/component/Landing_Page/Account/account";
 
 export default function Abouts (){
     return (
